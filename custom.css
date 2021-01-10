@@ -21,6 +21,11 @@
   background-color: #000;
   opacity: .65;
 }
+.banner-logo {
+ position: relative;
+
+}
+
 
 .my-custom-container {
   max-width: 800px;

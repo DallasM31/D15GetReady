@@ -25,14 +25,19 @@ body {
   left: 0;
   right: 0;
   background-color: #000;
-  opacity: .65;
+  opacity: .55;
 }
 .banner-logo {
  position: relative;
 
 }
 
-.box-a {background-color: rgb(192, 127, 127); padding: 10px; border: 3px solid black;}
+.box-a {
+  background-color: rgb(192, 127, 127); 
+  padding: 15px; 
+  border: 2px solid black;
+  border-radius: 10px;
+}
 
 .my-custom-container {
   max-width: 800px;

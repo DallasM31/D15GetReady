@@ -32,6 +32,38 @@ body {
 
 }
 
+/*Reveal and Hide Styles Begin*/
+.menu-btn {
+  text-decoration: underline;
+  color: blue;
+}
+
+.menu-btn:hover {
+  text-decoration: none;
+}
+
+.toggle-btn {
+  display: none;
+}
+
+/*   anything smaller than a tablet  */
+@media screen and (max-width: 767px) {
+  .toggle-btn-visible {
+    display: block;
+  }
+  
+  .toggle-target-hidden {
+    display: none;
+  }
+  
+  .toggle-target-expanded {
+    display: block;
+  }
+  
+}
+
+/*Reveal and Hide Styles End*/
+
 .box-a {
   background-color: rgb(192, 127, 127); 
   padding: 15px; 
